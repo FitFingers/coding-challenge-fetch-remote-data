@@ -1,5 +1,9 @@
 # Coding Challenge - Fetch And Display Remote Data (15)
-## Frontend Developer - Mid-level
+## Frontend Developer (React) - Junior+ / Intermediate
+
+---
+
+##
 
 ---
 
@@ -26,7 +30,7 @@
 
 ## Resources
 
-- [JSON API](https://jsonplaceholder.typicode.com/)
+- [JSON API](https://jsonplaceholder.typicode.com/posts/1/comments)
 
 ## Documentation
 
@@ -37,4 +41,4 @@
 
 ## Example Solution
 
-- [An example solution can be found here]()
+- [An example solution can be found here](www.example.com)
