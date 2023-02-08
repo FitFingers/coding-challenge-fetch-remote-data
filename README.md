@@ -1,38 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coding Challenge - Fetch And Display Remote Data (15)
 
-## Getting Started
+## Frontend Developer (React) - Junior+ / Intermediate
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Goal
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Create a web page using React to display an Array of Objects fetched from a remote API.
+- Display each Object in the Array, and each of the properties of the Objects.
+- Add some inputs for the user to add new items to the Array and display them in the UI.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Bonus
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Add some CSS to make the page look nice.
+- Add a way to handle errors.
+- Add some inputs for the user to update or delete items in the Array and display them in the UI.
+- Add some inputs for the user to filter the Array and display the filtered Array in the UI.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Hints
 
-## Learn More
+- Use the Fetch API to fetch data from the API.
+- Use `await` or the `then` method to handle the response from the API.
+- Use `await` or the `then` method to handle the JSON data returned from the API.
+- Use the `map` or `forEach` methods to loop through the Array of Objects.
 
-To learn more about Next.js, take a look at the following resources:
+## Resources
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [JSON API](https://jsonplaceholder.typicode.com/posts/1/comments)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Documentation
 
-## Deploy on Vercel
+- [Fetch API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Example Solution
+
+- [A basic example solution can be found here](https://coding-challenge-fetch-remote-data.vercel.app/)
